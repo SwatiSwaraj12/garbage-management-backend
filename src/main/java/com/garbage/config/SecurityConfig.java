@@ -73,7 +73,7 @@ public class SecurityConfig {
 
         CorsConfiguration config = new CorsConfiguration();
 
-        config.setAllowedOrigins(List.of("http://localhost:3000","https://garbage-management-system-peryopg73-swatiswaraj12s-projects.vercel.app"
+        config.setAllowedOrigins(List.of("http://localhost:3000","https://*.vercel.app"
 ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
